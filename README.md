@@ -20,8 +20,7 @@
 
 ### Backend
 - Node.js  
-- NestJS  
-- TypeScript  
+- NestJS   
 
 ### База даних
 - PostgreSQL  
@@ -107,3 +106,12 @@
 1. Скопіювати файл:
 ```bash
 cp .env.example .env
+```
+2. Запустити команду 
+```bash
+cp docker compose up --build
+```
+---
+## ERD (Entity Relationship Diagram) 
+
+![ERD діаграма бази даних](docs/images/erd.png)
