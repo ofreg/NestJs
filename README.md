@@ -103,13 +103,11 @@
 Перед запуском необхідно створити файл `.env` на основі шаблону `.env.example`.
 
 ### Кроки
-1. Скопіювати файл:
-```bash
-cp .env.example .env
-```
+1. Скопіювати вміст файлу `.env.example` у файл `.env`, присвоївши змінним коректні значення:
+
 2. Запустити команду 
 ```bash
-cp docker compose up --build
+docker compose up --build
 ```
 ---
 ## ERD (Entity Relationship Diagram) 
